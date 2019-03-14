@@ -1,8 +1,11 @@
-# Anime_Generator
-A GAN used to genrate anime images.
+# Anime_Generator<br>
+A GAN used to genrate anime images.<br>
 
-Update 2019-3-14
-Genrate Model trained. Controllable Version to be done.
+## Large GAN with resnet module<br>
+performs worse than smaller sized model in similar structure.<br>
+
+## DRAGAN with out label<br>
+Genrate Model trained. Controllable Version to be done.<br>
 
 For Res_DRAGAN the result is generally good.<br>
 ![image](https://github.com/WenjieLuo2333/Anime_Generator/blob/master/Res_DRAGAN/Predict_2.png)<br>
