@@ -11,6 +11,13 @@ Normal WGAN-GP generates unclear anime images.<br>
 Method to conditional :<br> G_input = multiply(noise,embedding_label)<br> D_input = multiply(flatten image,embedding_label)<br>
 Way too easy,not work for complex images.<br>
 
+## ACGAN with Resnet<br>
+The result shows that the image at the same location generally has a same color of hair. It shows that ACGAN works to control the output.<br>
+![image](https://github.com/WenjieLuo2333/Anime_Generator/blob/master/Res_ACGAN_Large/20400.png)
+![image](https://github.com/WenjieLuo2333/Anime_Generator/blob/master/Res_ACGAN_Large/20600.png)
+![image](https://github.com/WenjieLuo2333/Anime_Generator/blob/master/Res_ACGAN_Large/20800.png)<br>
+But the images is not clear. More works need to be done.
+
 ## DRAGAN with out label<br>
 Genrate Model trained. Controllable Version to be done.<br>
 
