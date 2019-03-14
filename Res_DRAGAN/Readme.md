@@ -1,0 +1,1 @@
+DRAGAN with ResNet block
